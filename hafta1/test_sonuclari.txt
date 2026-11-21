@@ -1,0 +1,12 @@
+1 geçerli UID | beklenen: ('GOTUR', 'ankara') | gerçek: ('GOTUR', 'ankara') | PASS
+2 boşluklu/küçük harf | beklenen: ('GOTUR', 'ankara') | gerçek: ('GOTUR', 'ankara') | PASS
+3 sahte koli | beklenen: ('GECERSIZ', None) | gerçek: ('GECERSIZ', None) | PASS
+4 boş okuma | beklenen: ('OKUMA_HATASI', None) | gerçek: ('OKUMA_HATASI', None) | PASS
+5 aynı koli tekrar | beklenen: ('ZATEN_TESLIM', 'ankara') | gerçek: ('ZATEN_TESLIM', 'ankara') | PASS
+6 rakip doldurdu | beklenen: ('SEHIR_DOLU', 'bursa') | gerçek: ('SEHIR_DOLU', 'bursa') | PASS
+7 uydurma UID | beklenen: ('GECERSIZ', None) | gerçek: ('GECERSIZ', None) | PASS
+8 konya kolisi | beklenen: ('GOTUR', 'konya') | gerçek: ('GOTUR', 'konya') | PASS
+9 şehir durumu | beklenen: {'ankara': True, 'bursa': True, 'konya': False, 'adana': False, 'samsun': False} | gerçek: {'ankara': True, 'bursa': True, 'konya': False, 'adana': False, 'samsun': False} | PASS
+10 dolu şehre gönderim yok | beklenen: 0 | gerçek: 0 | PASS
+
+SONUÇ: 10 / 10 test geçti
