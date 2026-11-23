@@ -6,4 +6,4 @@ koli_sayisi = 7
 print("Merhaba robot!")
 print("Takım:", takim)
 print("Pil:", pil_voltaji, "V")
-print("Sahadaki koli sayısı:", koli_sayisi)
+print("Sahadaki koli sayısı:", koli_sayisi) 
