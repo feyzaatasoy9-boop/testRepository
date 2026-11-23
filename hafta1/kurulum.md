@@ -13,3 +13,6 @@
 2. SyntaxError: if satırının sonundaki iki noktayı unuttum.
 3. IndentationError: satır başındaki boşlukları sildim.
 4. Hata vermeyen hata: "1" yerine 1 yazdım. input() yazı döndürdüğü için eşleşmedi. 
+## Ekran görüntüsü
+
+![VS Code kurulumu](gorseller/vscode_kurulum.png)
