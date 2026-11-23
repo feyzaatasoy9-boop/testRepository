@@ -20,7 +20,9 @@ while True:
         print("Robot kapanıyor...")
         break
     elif secim=="4":
+        secim=="4"
         print("Kayıtlı koli sayısı:",len(gecerlı_uidler))
     else:
         print("Yanlış seçim,tekrar dene.")
+    
     
